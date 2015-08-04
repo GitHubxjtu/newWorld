@@ -79,15 +79,43 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="AddOne.h" />
+    <ClInclude Include="Combinations.h" />
+    <ClInclude Include="CombinationSum.h" />
+    <ClInclude Include="CombinationSum3.h" />
+    <ClInclude Include="GasStation.h" />
+    <ClInclude Include="KthSmallestElementInBST.h" />
+    <ClInclude Include="LetterCombinationsofaPhoneNumber.h" />
+    <ClInclude Include="minPath.h" />
+    <ClInclude Include="MinSubArrayLength.h" />
+    <ClInclude Include="MyAToI.h" />
+    <ClInclude Include="PalindromeLinkedList.h" />
+    <ClInclude Include="PalindromePartition.h" />
+    <ClInclude Include="PalindromePartitioning.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
+    <ClInclude Include="ValidParentheses.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="AddOne.cpp" />
+    <ClCompile Include="Combinations.cpp" />
+    <ClCompile Include="CombinationSum.cpp" />
+    <ClCompile Include="CombinationSum3.cpp" />
+    <ClCompile Include="GasStation.cpp" />
+    <ClCompile Include="KthSmallestElementInBST.cpp" />
     <ClCompile Include="LeetCode.cpp" />
+    <ClCompile Include="LetterCombinationsofaPhoneNumber.cpp" />
+    <ClCompile Include="minPath.cpp" />
+    <ClCompile Include="MinSubArrayLength.cpp" />
+    <ClCompile Include="MyAToI.cpp" />
+    <ClCompile Include="PalindromeLinkedList.cpp" />
+    <ClCompile Include="PalindromePartition.cpp" />
+    <ClCompile Include="PalindromePartitioning.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="ValidParentheses.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
