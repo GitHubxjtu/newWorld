@@ -9,6 +9,13 @@
 
 #include <stdio.h>
 #include <tchar.h>
+#include <string>
+#include <vector>
+#include <iostream>
+#include <algorithm>
+#include <stack>
+
+using namespace std;
 
 
 
