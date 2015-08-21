@@ -80,96 +80,42 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AddOne.h" />
-    <ClInclude Include="BestTimeBuySellStock.h" />
-    <ClInclude Include="BiggesrNumber.h" />
-    <ClInclude Include="BinaryTreeLevelorder.h" />
-    <ClInclude Include="Calculate.h" />
     <ClInclude Include="Combinations.h" />
     <ClInclude Include="CombinationSum.h" />
     <ClInclude Include="CombinationSum3.h" />
-    <ClInclude Include="CommonPrefix.h" />
-    <ClInclude Include="CourseSchedule.h" />
-    <ClInclude Include="DigitOnes.h" />
-    <ClInclude Include="DistanceBetweenTwoString.h" />
-    <ClInclude Include="DivideTwoIntegers.h" />
     <ClInclude Include="GasStation.h" />
-    <ClInclude Include="IsomorphicStrings.h" />
     <ClInclude Include="KthSmallestElementInBST.h" />
     <ClInclude Include="LetterCombinationsofaPhoneNumber.h" />
-    <ClInclude Include="MaxPath.h" />
     <ClInclude Include="minPath.h" />
     <ClInclude Include="MinSubArrayLength.h" />
-    <ClInclude Include="MNmatrixSearch.h" />
     <ClInclude Include="MyAToI.h" />
     <ClInclude Include="PalindromeLinkedList.h" />
     <ClInclude Include="PalindromePartition.h" />
     <ClInclude Include="PalindromePartitioning.h" />
-    <ClInclude Include="Parentheses.h" />
-    <ClInclude Include="PathSum.h" />
-    <ClInclude Include="PatitionList.h" />
-    <ClInclude Include="permute.h" />
-    <ClInclude Include="PreOrderTree.h" />
-    <ClInclude Include="Removedepulicate.h" />
-    <ClInclude Include="ReverseLinkList.h" />
-    <ClInclude Include="RomanToInteger.h" />
-    <ClInclude Include="SearchRotated.h" />
-    <ClInclude Include="SingleOne.h" />
-    <ClInclude Include="SpiralMatrix.h" />
     <ClInclude Include="stdafx.h" />
-    <ClInclude Include="strStr.h" />
     <ClInclude Include="targetver.h" />
-    <ClInclude Include="treeLevelOrder.h" />
     <ClInclude Include="ValidParentheses.h" />
-    <ClInclude Include="WorldBreak.h" />
-    <ClInclude Include="ZigZagString.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AddOne.cpp" />
-    <ClCompile Include="BestTimeBuySellStock.cpp" />
-    <ClCompile Include="BiggesrNumber.cpp" />
-    <ClCompile Include="BinaryTreeLevelorder.cpp" />
-    <ClCompile Include="Calculate.cpp" />
     <ClCompile Include="Combinations.cpp" />
     <ClCompile Include="CombinationSum.cpp" />
     <ClCompile Include="CombinationSum3.cpp" />
-    <ClCompile Include="CommonPrefix.cpp" />
-    <ClCompile Include="CourseSchedule.cpp" />
-    <ClCompile Include="DigitOnes.cpp" />
-    <ClCompile Include="DistanceBetweenTwoString.cpp" />
-    <ClCompile Include="DivideTwoIntegers.cpp" />
     <ClCompile Include="GasStation.cpp" />
-    <ClCompile Include="IsomorphicStrings.cpp" />
     <ClCompile Include="KthSmallestElementInBST.cpp" />
     <ClCompile Include="LeetCode.cpp" />
     <ClCompile Include="LetterCombinationsofaPhoneNumber.cpp" />
-    <ClCompile Include="MaxPath.cpp" />
     <ClCompile Include="minPath.cpp" />
     <ClCompile Include="MinSubArrayLength.cpp" />
-    <ClCompile Include="MNmatrixSearch.cpp" />
     <ClCompile Include="MyAToI.cpp" />
     <ClCompile Include="PalindromeLinkedList.cpp" />
     <ClCompile Include="PalindromePartition.cpp" />
     <ClCompile Include="PalindromePartitioning.cpp" />
-    <ClCompile Include="Parentheses.cpp" />
-    <ClCompile Include="PathSum.cpp" />
-    <ClCompile Include="PatitionList.cpp" />
-    <ClCompile Include="permute.cpp" />
-    <ClCompile Include="PreOrderTree.cpp" />
-    <ClCompile Include="Removedepulicate.cpp" />
-    <ClCompile Include="ReverseLinkList.cpp" />
-    <ClCompile Include="RomanToInteger.cpp" />
-    <ClCompile Include="SearchRotated.cpp" />
-    <ClCompile Include="SingleOne.cpp" />
-    <ClCompile Include="SpiralMatrix.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
     </ClCompile>
-    <ClCompile Include="strStr.cpp" />
-    <ClCompile Include="treeLevelOrder.cpp" />
     <ClCompile Include="ValidParentheses.cpp" />
-    <ClCompile Include="WorldBreak.cpp" />
-    <ClCompile Include="ZigZagString.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
